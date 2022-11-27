@@ -1,0 +1,540 @@
+:root {
+    --poppins:'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #0B0B0B;
+}
+
+#header {
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    width: 80vw;
+    margin-left: 150px;
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    background-color: #383638;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0,.2) ;
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo h2 {
+    color: #fff;
+    font-family: var(--poppins);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+nav  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-right: 20px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #8B8E99;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#brands:hover {
+    color: white;
+    border-bottom: 2px solid white;
+    transition: 0.5s;
+}
+
+
+#prdcts:hover {
+    color: white;
+    border-bottom: 2px solid white;
+    transition: 0.5s;
+}
+
+
+#contact:hover {
+    color: white;
+    border-bottom: 2px solid white;
+    transition: 0.5s;
+}
+
+
+#about:hover {
+    color: white;
+    border-bottom: 2px solid white;
+    transition: 0.5s;
+}
+  
+#home {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+
+
+.btn {
+    margin-left: 150px;
+    display: flex;
+    gap: 20px;
+} 
+
+.btn i {
+    font-size: 18px;
+    color: white;
+}
+
+
+
+.toggle {
+    font-size: 1.5em;
+    color: white;
+    display: none;
+}
+
+
+
+main {
+    margin-top: 150px;
+}
+
+.hero {
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details {
+    width: 40%;
+}
+
+.details h1 {
+    color: white;
+    font-family: var(--poppins);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+
+.details h5 {
+    margin-top: 20px;
+    color: #8B8E99;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.08px;
+}
+
+.details input {
+    position: relative;
+    margin-top: 100px;
+    width: 400px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-left: 40px;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.08px;
+    
+}
+
+.details button {
+    position: absolute;
+    top: 597px;
+    left: 420px;
+    width: 120px;
+    height: 35px;
+    border: 2px solid #3858D6;
+    border-radius: 10px;
+    background-color: #3858D6;
+} 
+
+.details button a {
+    font-family: var(--poppins);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.59px;
+    text-decoration: none;
+}
+
+
+.details i {
+    position: absolute;
+    color: #3858D6;
+    top: 602px;
+    left: 160px;
+    font-size: 16px;
+}
+
+#pic01 img  {
+    width: 361px;
+    margin-right: 120px;
+}
+
+
+
+#watches {
+    background-color: white;
+    margin-top: 100px;
+}
+
+.cards {
+    padding-top: 80px ;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.card {
+    border-radius: 20px;
+    padding-left: 20px;
+    width: 30%;
+    min-height: 200px;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 12px 0 5px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.card:hover {
+    flex-direction: column;
+    height:300px;
+    text-align: center;
+    background-color: #0B0B0B;
+    transition: 0.5s;
+    box-shadow: 0 5px 2px 3px #000000;
+}
+
+.card:hover h2 {
+    color: white;
+}
+
+.card h2 {
+    font-family: var(--poppins);
+    font-size: 36px;
+    font-weight: 700;
+    color: #1E1D1D;
+    line-height: 43.57px;
+}
+
+.card h5 {
+    font-family: var(--poppins);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #8B8E99;
+}
+
+#our-prdcts {
+    background-color: #fff;
+    padding-top: 250px;
+}
+
+
+.head01 {
+    text-align: center;
+}
+
+.head01 h4 {
+    color: #3858D6;
+    font-family: var(--poppins);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+
+.head01 h2 {
+    font-family: var(--poppins);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.57px;
+    color: #1E1D1D;
+}
+
+
+.products {
+    padding-top: 30px;
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.product  {
+    width: 30%;
+    min-height: 200px;
+}
+
+.pics {
+    border-radius: 10px;
+    background-color:#F6F6F6;
+    padding: 20px;
+}
+
+
+.texts {
+    margin-top: 10px;
+    background-color: white;
+    text-align: center;
+    font-family: var(--poppins);
+}
+
+.texts h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #1E1D1D;
+}
+
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.price h5 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.1px;
+    color: #8B8E99;
+    text-decoration: line-through;
+}
+
+
+.price h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.92px;
+    color: #000000;
+}
+
+#btn02 {
+    margin-top: 50px;
+    margin-left: 43.5%;
+}
+
+
+#btn02 button {
+    width: 200px;
+    height: 50px;
+    background-color: #3858D6;
+    border: 2px solid #3858D6;
+    border-radius: 20px;
+}
+
+#btn02 button a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: var(--poppins);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px ;
+    text-align: center;
+}
+
+
+#aboutus {
+    padding-top: 100px;
+    background-color: #fff;
+}
+
+
+.ppl {
+    margin-top: 60px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.cardo {
+    background-color: #F6F6F6;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.cardo h2 {
+    font-family: var(--poppins);
+    font-size: 24px ;
+    font-weight:700 ;
+    line-height:29.05px ;
+    color:#1E1D1D ;
+}
+
+.cardo h5 {
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    color: #8B8E99;
+}
+
+.cardo i {
+    margin-top: 10px;
+}
+
+
+
+#circle {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    padding-right: 30px;
+    color: grey;
+}
+
+#blue {
+    color: #3858D6;
+    background-color: #3858D6;
+}
+
+
+#sub {
+    background-color: #fff;
+    padding-top: 150px;
+}
+
+
+.content {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #F6F6F6;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.content h1 {
+    font-family: var(--poppins);
+    font-size: 36px ;
+    font-weight: 700 ;
+    line-height:43.57px ;
+    color: #1E1D1D ;
+}
+
+
+.content h5 {
+    position: relative;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500 ;
+    line-height: 19.36px;
+    color: #8B8E99;
+}
+
+.content input {
+    margin-top: 30px;
+    width: 450px;
+    height: 60px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 2px solid  #fff;
+    font-family: var(--poppins);
+    font-size:16px ;
+    font-weight: 500;
+    line-height: 20.08px ;
+}
+
+
+.content button {
+    position: absolute;
+    top: 3240px;
+    left: 500px;
+    width: 170px;
+    height: 40px;
+    background-color: #3858D6;
+    border: 2px solid #3858D6;
+    border-radius: 10px;
+}
+
+.content button a {
+    text-decoration: none;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.08px ;
+    color: #FFFFFF;
+}
+
+footer {
+    padding-top: 60px;
+    background-color: #fff;
+}
+
+.copy-r {
+    margin-top: 50px;
+    background-color: #0B0B0B;
+    height: 60px;
+}
+
+.copy-r h3 {
+    text-align: center;
+    font-family: var(--poppins);
+    font-size: 16px;
+    font-weight: 500 ;
+    line-height: 20.08px;
+    color: #FFFFFF;
+    padding-top: 25px;
+}
